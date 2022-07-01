@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="./img/logo.png">
+	<link rel="stylesheet" type="text/css" href="./style/products.css">
+	<link rel="stylesheet" href="./style/swap.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Oswald:wght@300;400;500;600&display=swap"
+		rel="stylesheet">
+	<title>Valves</title>
+</head>
+
+<body>
+	<header>
+		<div class="header__logo">
+			<img src="./img/logo.png" alt="logo" class="logo">
+			<span class="span__logo">Valves</span>
+		</div>
+		<ul class="header__menu">
+			<li class="menu"><a href="/" class="menu__link">Главная</a></li>
+			<li class="menu"><a href="/products" class="menu__link">Продукция</a></li>
+			<li class="menu"><a href="#" class="menu__link">О компнаии</a></li>
+			<li class="menu"><a href="/form.html" class="menu__link"> Добавить</a></li>
+		</ul>
+		<div class="header__contacts">
+			<img src="./img/logoGit.png" alt="git logo" class="git">
+			<a class="a__git" href="#">yegorprikhodieko</a>
+		</div>
+	</header>
+	<main>
+		<div class="main__search">
+			<h2>Продукция</h2>
+			<div class="search">
+				<form>
+					<input type="text" placeholder="Наименование клапана" id="Nam">
+					<input type="text" placeholder="Материал" id="Mat">
+					<label for="type">Тип клапана:</label>
+                <select id="type" name="phone">
+									<option value="null">Не выбран</option>
+                    <option value="обратный">Обратный</option>
+                    <option value="мембранный">Мембранный</option>
+                    <option value="запорный">Запорный</option>
+                    <option value="отсечной">Отсечной</option>
+          </select>
+					<button type="submit" id="search"><img src="./img/arrow-right.svg" alt="arrow find"></button>
+				</form>
+			</div>
+		</div>
+		<div class="collection">
+			<!-- <div class="item">
+				<div>
+					<img src="./img/24s47nz.jpg" alt="" style="--i:100ms">
+				</div>
+				<div><p class="item_name" style="--ip:800ms">Клапан запорный 24c47нж</p></div>
+			</div>
+			<div class="item">
+				<div>
+					<img src="./img/19h25br.jpg" alt="" style="--i:200ms">
+				</div>
+				<div><p class="item_name" style="--ip:900ms">Клапан обратный 19ч25бр</p></div>
+			</div>
+			
+			
+				<div class="item">
+					<a href="/item.html">
+						<div>
+							<img src="./img/19c53nz.jpg" alt="" style="--i:300ms">
+						</div>
+						<div><p class="item_name" style="--ip:1000ms">Клапан обратный 19c53нз</p></div>
+					</a>
+				</div>
+			
+			<a href="#">
+			<div class="item">
+				<div>
+					<img src="./img/1256.100.00.jpg" alt="" style="--i:400ms">
+				</div>
+				<div><p class="item_name" style="--ip:1100ms">Клапан отсечной 1256.100.00</p></div>
+			</div>
+			</a> 
+			-->
+		</div>
+	</main>
+	<!-- <div class="transition-wipe overlay"></div> -->
+	<!-- <script src="./scripts/swup.min.js"></script> -->
+	<script src="./scripts/productsGet.js"></script>
+
+</body>
+
+</html>
